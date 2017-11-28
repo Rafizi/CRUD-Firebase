@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.naufalrafizi.firebasecrud.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler">
+
+    </android.support.v7.widget.RecyclerView>
+    <!--<TextView-->
+        <!--android:id="@+id/txt_hasil"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="20dp" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingBottom="20dp"-->
+        <!--android:paddingTop="20dp"-->
+        <!--android:orientation="vertical">-->
+
+
+
+            <!--<EditText-->
+                <!--android:id="@+id/edtnama"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:hint="nama"-->
+                <!--android:inputType="textCapWords"-->
+                <!--android:maxLines="1" />-->
+
+
+
+
+            <!--<EditText-->
+                <!--android:id="@+id/edtsiapa"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:hint="siapa"-->
+                <!--android:inputType="textEmailAddress"-->
+                <!--android:maxLines="1" />-->
+
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_save"-->
+            <!--style="?android:textAppearanceSmall"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:text="save"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textStyle="bold" />-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>
